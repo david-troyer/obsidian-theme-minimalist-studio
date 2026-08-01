@@ -80,12 +80,12 @@ body {
 	top: 1px;
 	bottom: 1px;
 	width: 10px;
-	border-left: 4px solid rgb(var(--callout-color));
+	border-left: 4px solid var(--callout-color);
 	/* border-radius: 6px; */
 }
 
 .callout > .callout-content {
-	--quote-qutter-background: rgba(var(--callout-color), 0.15);
+	--quote-qutter-background: color-mix(in srgb, var(--callout-color) 15%, transparent);
 }
 
 .callout .callout-title {
@@ -204,7 +204,7 @@ body {
 }
 
 .callout-content .internal-embed.markdown-embed:after {
-	background-color: rgb(var(--callout-color));
+	background-color: var(--callout-color);
 	opacity: 0.15;
 }
 

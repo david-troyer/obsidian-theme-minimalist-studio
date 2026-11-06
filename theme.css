@@ -80,7 +80,7 @@ body {
 	top: 1px;
 	bottom: 1px;
 	width: 10px;
-	border-left: 4px solid rgb(var(--callout-color));
+	border-left: 4px solid var(--callout-color);
 	/* border-radius: 6px; */
 }
 
